@@ -1,0 +1,36 @@
+// 1. cntrl + shift + p
+// 2. Open "Preferences: Open Settings (JSON)"
+// 3. Paste this json
+{
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	// Explorer
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	// Workbench
+	"workbench.colorTheme": "Bearded Theme Monokai Stone",
+	"workbench.colorCustomizations": {},
+	"workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+	// Dart
+	"dart.warnWhenEditingFilesInPubCache": false,
+	"dart.debugExternalPackageLibraries": true,
+	"dart.debugSdkLibraries": true,
+	"dart.previewFlutterUiGuidesCustomTracking": true,
+	"dart.showInspectorNotificationsForWidgetErrors": false,
+	"dart.openDevTools": "flutter",
+	// Files
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 300,
+	// Editor
+	"editor.formatOnSave": true,
+	"editor.snippetSuggestions": "top",
+	"editor.fontFamily": "fira code, source code pro",
+	"editor.fontLigatures": true,
+	"editor.codeLens": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.fontSize": 13.8,
+	"editor.minimap.enabled": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+}
